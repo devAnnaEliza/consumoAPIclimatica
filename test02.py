@@ -19,7 +19,8 @@ def get_weather_temp(city):
 
 def get_weather_main(city):
     response = get_weather_API(city)
-    main = response
-    pass
+    main = response['weather'][0]['main']
+    return main
 
-print(get_weather_API('Rio de Janeiro'))
+print(get_weather_temp('Rio de Janeiro'))
+print(get_weather_main('Rio de Janeiro'))
