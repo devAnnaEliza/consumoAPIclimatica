@@ -13,3 +13,5 @@ Projeto desenvolvido em Python para consultar informações climáticas de qualq
 - Python
 - Requests (para requisições HTTP)
 - API OpenWeatherMap
+
+<img src="./img/terminal1.png">
